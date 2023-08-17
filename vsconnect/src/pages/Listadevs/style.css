@@ -1,5 +1,5 @@
 /* MAIN */
-main#lista-servicos {
+main#lista-devs {
   background-image: linear-gradient(
       180deg,
       #060821 0%,
@@ -13,18 +13,8 @@ main#lista-servicos {
   background-repeat: no-repeat;
   background-position: center;
 }
-:root {
-  --branco: #ffffff;
-  --rosa: #c12d6d;
-  --azul: #0c7eae;
-  --azulP: #060821;
-  --azulC: #182246;
 
-  --font1: "Righteous", cursive;
-  --font2: "Titillium Web", sans-serif;
-}
-
-#lista-servicos .container_lista_servicos {
+#lista-devs .container_lista_devs {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +22,7 @@ main#lista-servicos {
   padding: 50px 0;
 }
 
-#lista-servicos .lista_servicos_conteudo {
+#lista-devs .lista_devs_conteudo {
   width: 100%;
   max-width: 900px;
 
@@ -51,13 +41,13 @@ main#lista-servicos {
   color: var(--branco);
 }
 
-#lista-servicos h2 {
+#lista-devs h1 {
   font-family: var(--font1);
   font-size: 50px;
   text-align: center;
 }
 
-#lista-servicos hr {
+#lista-devs hr {
   margin: 20px auto;
   width: 80%;
   height: 4px;
@@ -66,16 +56,16 @@ main#lista-servicos {
   border-radius: 50%;
 }
 
-#lista-servicos .lista_servicos_conteudo form {
+#lista-devs .lista_devs_conteudo form {
   width: 85%;
   padding: 20px 0;
 }
 
-#lista-servicos .wrapper_lista {
+#lista-devs .wrapper_lista {
   width: 85%;
 }
 
-#lista-servicos .wrapper_form {
+#lista-devs .wrapper_form {
   height: 95px;
   width: 85%;
   margin: 0 auto;
@@ -85,13 +75,13 @@ main#lista-servicos {
   justify-content: space-between;
 }
 
-#lista-servicos .wrapper_form label {
-  font-family: var(--font1);
+#lista-devs .wrapper_form label {
+  font-family: var(--font2);
   text-transform: capitalize;
   font-size: 28px;
 }
 
-#lista-servicos .campo-label input {
+#lista-devs .campo-label input {
   height: 37px;
   width: 75%;
 
@@ -109,11 +99,11 @@ main#lista-servicos {
   caret-color: white;
 }
 
-#lista-servicos .campo-label input:focus-visible {
+#lista-devs .campo-label input:focus-visible {
   outline: 2px solid var(--branco);
 }
 
-#lista-servicos .campo-label button {
+#lista-devs .campo-label button {
   width: 20%;
 
   border: 4px solid var(--rosa);
@@ -125,22 +115,23 @@ main#lista-servicos {
   text-transform: uppercase;
 }
 
-#lista-servicos .campo-label button:hover {
+#lista-devs .campo-label button:hover {
   background-color: #8a214f;
   cursor: pointer;
 }
 
-#lista-servicos .campo-label {
+#lista-devs .campo-label {
   display: flex;
   justify-content: space-between;
 }
 
-#lista-servicos .lista_servicos_conteudo ul {
+#lista-devs .lista_devs_conteudo ul {
   list-style: none;
   padding: 50px 0;
 }
 
-#lista-servicos .lista_servicos_conteudo li {
+#lista-devs .lista_devs_conteudo li {
   margin-bottom: 20px;
   padding-bottom: 20px;
+  border-bottom: solid 1px #ffffff34;
 }
